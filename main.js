@@ -286,6 +286,7 @@ client.on('message', async message => {
                                                 } else {
                                                     if (message.content.startsWith(prefix + 'help')) {
                                                         let embed = new Discord.MessageEmbed()
+                                                            .setTitle('Help Command')
                                                             .addField(`Misc `, '`help`')
                                                             .addField('General Commands ', '`avatar`, `server`, `user`, `startvote`')
                                                             .addField('Moderation ', '`ban`,`kick`, `mute`, `unmute`, `clear`,`hide`, `show`')
