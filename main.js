@@ -8,6 +8,7 @@ client.login(config.Token)
 
 client.on('ready', () => {
     console.log(`Loggged in as ${client.user.tag}`)
+    console.log('Bot Developer: Ali#0007')
     client.user.setActivity(`${prefix}help`)
 })
 
