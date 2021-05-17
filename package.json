@@ -1,12 +1,13 @@
 {
   "name": "2nd-bot-github",
   "version": "1.0.0",
-  "description": "",
+  "description": "My 2nd Bot In Github",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["systembot", "2nd-bot-github"],
+  "author": "Ali",
+  "license": "MIT"
 }
